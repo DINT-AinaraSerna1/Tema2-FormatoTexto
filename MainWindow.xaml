@@ -15,7 +15,7 @@
         <RadioButton x:Name="azul_RadioButton" Content="Azul" HorizontalAlignment="Left" Margin="635,110,0,0" VerticalAlignment="Top" Foreground="#FF1B07F9" FontSize="14" FontWeight="Bold" Checked="Azul_RadioButton_Checked"/>
         <RadioButton x:Name="verde_RadioButton" Content="Verde" HorizontalAlignment="Left" Margin="635,132,0,0" VerticalAlignment="Top" Foreground="#FF00FF22" FontSize="14" FontWeight="Bold" Checked="Verde_RadioButton_Checked"/>
         <Label Content="Color" HorizontalAlignment="Left" Margin="643,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.099,0.395" FontWeight="Bold" FontSize="16"/>
-        <TextBlock x:Name="resultado_TextBlock" HorizontalAlignment="Center" Margin="0,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="636" TextAlignment="Center" Background="#FFFAE57A" FontSize="18"/>
+        <TextBlock x:Name="resultado_TextBlock" HorizontalAlignment="Center" Margin="0,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="636" TextAlignment="Center" Background="#FFFAE57A" FontSize="18" Foreground="Red"/>
 
     </Grid>
 </Window>
