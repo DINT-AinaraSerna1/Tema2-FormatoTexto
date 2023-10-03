@@ -1,0 +1,21 @@
+﻿<Window x:Class="Tema2_FormatoTexto.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_FormatoTexto"
+        mc:Ignorable="d"
+        Title=" Tema2-FormatoTexto" Height="288" Width="800">
+    <Grid Background="#FFF0E3C8">
+        <Label Content="Texto" HorizontalAlignment="Left" Margin="78,46,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16"/>
+        <TextBox x:Name="caja_TextBox" HorizontalAlignment="Left" Margin="69,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="54" TextChanged="Caja_TextBox_TextChanged"/>
+        <CheckBox x:Name="negrita_CheckBox" Content="Negrita" HorizontalAlignment="Left" Margin="304,113,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" Checked="Negrita_CheckBox_Checked" Unchecked="Negrita_CheckBox_Unchecked"/>
+        <CheckBox x:Name="cursiva_CheckBox" Content="Cursiva" HorizontalAlignment="Left" Margin="417,113,0,0" VerticalAlignment="Top" FontStyle="Italic" FontSize="14" Checked="Cursiva_CheckBox_Checked" Unchecked="Cursiva_CheckBox_Unchecked"/>
+        <RadioButton x:Name="rojo_RadioButton" Content="Rojo" HorizontalAlignment="Left" Margin="634,87,0,0" VerticalAlignment="Top" Foreground="#FFFD1515" FontSize="14" FontWeight="Bold" Checked="Rojo_RadioButton_Checked" IsChecked="True"/>
+        <RadioButton x:Name="azul_RadioButton" Content="Azul" HorizontalAlignment="Left" Margin="635,110,0,0" VerticalAlignment="Top" Foreground="#FF1B07F9" FontSize="14" FontWeight="Bold" Checked="Azul_RadioButton_Checked"/>
+        <RadioButton x:Name="verde_RadioButton" Content="Verde" HorizontalAlignment="Left" Margin="635,132,0,0" VerticalAlignment="Top" Foreground="#FF00FF22" FontSize="14" FontWeight="Bold" Checked="Verde_RadioButton_Checked"/>
+        <Label Content="Color" HorizontalAlignment="Left" Margin="643,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.099,0.395" FontWeight="Bold" FontSize="16"/>
+        <TextBlock x:Name="resultado_TextBlock" HorizontalAlignment="Center" Margin="0,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="31" Width="636" TextAlignment="Center" Background="#FFFAE57A" FontSize="18"/>
+
+    </Grid>
+</Window>
